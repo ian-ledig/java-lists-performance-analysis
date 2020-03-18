@@ -26,9 +26,8 @@ for size in ${structSize[*]}; do
 	for operation in ${operationType[*]}; do
 		for opSize in ${nbrOperation[*]}; do
 			for type in ${structType[*]}; do
-				echo -ne "$size\t$operation\t$nbrOperation\t$type"
 				res=$((/usr/bin/time -f "\t%U\t%M" java Main.java  $type $size $operation $nbrOperation) 2>&1)
-				echo $res >> perf.dat
+				echo -e "$size\t$operation\t$nbrOperation\t$type\t$res"
 			done
 		done
 	done
