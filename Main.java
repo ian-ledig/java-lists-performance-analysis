@@ -19,8 +19,8 @@ public class Main {
         String type = args[0];
         int size = Integer.parseInt(args[1]);
         String op = args[2];
-        int sizeOp = Integer.parseInt(args[3]);
-	
+        int nbrOperation = Integer.parseInt(args[3]);
+
 	//Création de la structure choisie (ArrayList, LinkedList ou HashSet) :
         switch (args[0]) {
             default: {
@@ -44,19 +44,19 @@ public class Main {
 	//On effectue l'opération choisie (add, contains ou remove) :
         switch (op) {
             default: {
-                for (int i = 0; i < sizeOp; ++i) {
+                for (int i = 0; i < nbrOperation; ++i) {
                     collection.add(r.nextInt());
                 }
                 break;
             }
             case "contains": {
-                for (int i = 0; i < sizeOp; ++i) {
+                for (int i = 0; i < nbrOperation; ++i) {
                     collection.contains(r.nextInt());
                 }
                 break;
             }
             case "remove": {
-                for (int i = 0; i < sizeOp; ++i) {
+                for (int i = 0; i < nbrOperation; ++i) {
                     collection.remove(r.nextInt());
                 }
             }
