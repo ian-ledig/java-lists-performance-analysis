@@ -32,7 +32,7 @@
   - [ ] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
   - [x] La section n'est pas pertinente.
--	Hypothèse				
+-	Hypothèse
   - [ ] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
   - [x] La section n'est pas pertinente.
