@@ -12,11 +12,11 @@
   - [ ] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
   - [x] La section n'est pas pertinente.
-- Application				
+- Application
   - [ ] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
   - [x] La section n'est pas pertinente.
-- Environnement de test				
+- Environnement de test
   - [ ] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
   - [x] La section n'est pas pertinente.
@@ -24,7 +24,7 @@
   - [ ] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
   - [x] La section n'est pas pertinente.			
-- Analyse des résultats préalables				
+- Analyse des résultats préalables
   - [ ] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
   - [x] La section n'est pas pertinente.
@@ -32,7 +32,6 @@
   - [ ] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
   - [x] La section n'est pas pertinente.
-
 -	Hypothèse
   - [ ] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
