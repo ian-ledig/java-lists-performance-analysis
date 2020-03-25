@@ -33,15 +33,15 @@
   - [ ] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
   - [x] La section n'est pas pertinente.
--	Hypothèse
+- Hypothèse
   - [ ] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
   - [x] La section n'est pas pertinente.
--	Protocole expérimental de vérification de l'hypothèse
+- Protocole expérimental de vérification de l'hypothèse
   - [ ] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
   - [x] La section n'est pas pertinente.
--	Analyse des résultats expérimentaux
+- Analyse des résultats expérimentaux
   - [ ] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
   - [x] La section n'est pas pertinente.
@@ -49,7 +49,7 @@
   - [ ] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
   - [x] La section n'est pas pertinente.
--	Conclusion et travaux futurs
+- Conclusion et travaux futurs
   - [ ] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
   - [x] La section n'est pas pertinente.
