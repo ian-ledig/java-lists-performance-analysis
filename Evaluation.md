@@ -7,6 +7,7 @@
   - [ ] Plus de deux opérations sont traitées.
   - [ ] Deux opérations sont traitées.
   - [x] Deux opérations ne sont pas traitées.
+  
 ## Rédaction et analyses
 - Description du problème
   - [ ] La section est pertinente, succincte et précise.
