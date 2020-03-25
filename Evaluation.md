@@ -44,14 +44,15 @@
   - [ ] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
   - [x] La section n'est pas pertinente.
--	Discussion des résultats expérimentaux
+- Discussion des résultats expérimentaux
   - [ ] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
-  - [x] La section n'est pas pertinente.			
+  - [x] La section n'est pas pertinente.
 -	Conclusion et travaux futurs				
   - [ ] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
   - [x] La section n'est pas pertinente.
+
 ## Résultats 	
 - Nombre
   - [ ] Les tests sont suffisament nombreux pour observer des épiphénomènes
