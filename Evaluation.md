@@ -105,7 +105,7 @@
 # Total
 
 - Total d'item « Excellent » (1 point) :
-- Total d'item « Satisfaisant » (0,5 point:
+- Total d'item « Satisfaisant » (0,5 point) :
 - Total d'item « Insatisfaisant » (0 point) :
 
 - Note sur 24 :
