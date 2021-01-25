@@ -1,4 +1,4 @@
-## Etendue de l'étude
+## Etendue et qualité de l'étude
 - Nombre de structures
   - [ ] Plus de deux structures sont traitées.
   - [ ] Deux structures sont traitées.
@@ -7,7 +7,14 @@
   - [ ] Plus de deux opérations sont traitées.
   - [ ] Deux opérations sont traitées.
   - [x] Deux opérations ne sont pas traitées.
-  
+- Aspects
+  - [ ] Consommation mémoire et CPU sont traitées.
+  - [ ] Consommation mémoire ou CPU sont traitées.
+  - [x] Consommation mémoire et CPU ne sont pas traitées.
+- Qualité
+  - [ ] Les principes de la programmation objet sont pleinement exploités, notamment l'héritage et l'abstraction. 
+  - [ ] Les principes de la programmation objet sont exploités, notamment l'héritage. 
+  - [x] Les principes de la programmation objet ne sont pas exploités. 
 ## Rédaction et analyses
 - Description du problème
   - [ ] La section est pertinente, succincte et précise.
@@ -94,10 +101,11 @@
   - [ ]	L'analyse de l'hypothèse se confronte à la théorie.
   - [x]	L'analyse de l'hypothèse ne se confronte pas à la théorie.
 
-# Résultat
+
+# Total
 
 - Total d'item « Excellent » (1 point) :
 - Total d'item « Satisfaisant » (0,5 point:
 - Total d'item « Insatisfaisant » (0 point) :
 
-- Note sur 22 :
+- Note sur 24 :
