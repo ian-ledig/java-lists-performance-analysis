@@ -4,11 +4,19 @@
 
 ## Problème
 
-Description du Problème.
+### Description du Problème
 
 Pendant tout notre DUT nous avons utilisé en java principalement les ArrayList<> pour stocker des informations dans un tableau mais est-ce toujours le bon choix. C’est pourquoi nous allons analyser les performances des structures suivantes ArrayList<> et LinkedList<>. Pour savoir quand et pourquoi utiliser une structure ou une autre.
 
-Description de tous les paramètres exploratoires du problème
+### Paramètres exploratoires du problème
+
+Dans le cadre des tests de comparaison de performance entre une ArrayList et une LinkedList en Java, nous avons mis en place les tests de rapidité et de performance suivants.
+
+- Ajout d'éléments dans chaque liste,
+- suppression d'éléments dans chaque list,
+- récupération d'éléments dans chaque list.
+
+Ainsi, nous pouvons comparer les résultats sur chaque opération et en déduire laquelle est la plus optimale en fonction de l'utilisation souhaitée avec un bon rapport rapidité/performance CPU utilisé.
 
 ## Dispositif expérimental
 
