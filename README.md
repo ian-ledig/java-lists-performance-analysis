@@ -1,8 +1,6 @@
-
 # P4a : Analyse de performances de différentes structures
 
-[Grille d'évaluation P4a](https://docs.google.com/spreadsheets/d/1x72glVEQHPx56Wr8G0RNQgfQXGX6xCsjms_6b7J6si0/edit?usp=sharing
-)
+[Grille d'évaluation P4a](Evaluation.md)
 
 ## Problème
 
@@ -11,6 +9,10 @@ Description du Problème.
 Description de tous les paramètres exploratoires du problème
 
 ## Dispositif expérimental
+
+### Organisation objet
+
+Description de l'organisation des classes et interfaces, ou diagramme de classes.
 
 ### Application
 
