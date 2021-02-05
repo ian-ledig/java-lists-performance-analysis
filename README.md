@@ -6,6 +6,8 @@
 
 Description du Problème.
 
+Pendant tout notre DUT nous avons utilisé en java principalement les ArrayList<> pour stocker des informations dans un tableau mais est-ce toujours le bon choix. C’est pourquoi nous allons analyser les performances des structures suivantes ArrayList<> et LinkedList<>. Pour savoir quand et pourquoi utiliser une structure ou une autre.
+
 Description de tous les paramètres exploratoires du problème
 
 ## Dispositif expérimental
