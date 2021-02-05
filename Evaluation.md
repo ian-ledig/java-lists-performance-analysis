@@ -1,10 +1,10 @@
 ## Etendue et qualité de l'étude
 - Nombre de structures
-  - [ ] Plus de deux structures sont traitées.
-  - [ ] Deux structures sont traitées.
-  - [x] Deux structures ne sont pas traitées.
+  - [ ] Tableau et liste chainées (implantations maison + implantations standard) + une autre structure sandard sont traités.
+  - [ ] Tableau et liste chainées (implantations maison + implantations standard)
+  - [x] Tableau et liste chainées ne sont pas traités
 - Nombre d'opérations
-  - [ ] Plus de deux opérations sont traitées.
+  - [ ] Au moins trois opérations sont traitées.
   - [ ] Deux opérations sont traitées.
   - [x] Deux opérations ne sont pas traitées.
 - Aspects
