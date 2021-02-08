@@ -10,7 +10,7 @@ Pour cette session de comparaison, nous utilisons le Java.
 
 ### Description du Problème
 
-Pendant tout notre DUT nous avons utilisé en java principalement les ArrayList<> pour stocker des informations dans un tableau mais est-ce toujours le bon choix. C’est pourquoi nous allons analyser les performances des structures suivantes ArrayList<> et LinkedList<>. Pour savoir quand et pourquoi utiliser une structure ou une autre.
+Pendant tout notre DUT nous avons utilisé en java principalement les ArrayList<> pour stocker des informations dans un tableau mais est-ce toujours le bon choix. C’est pourquoi nous allons analyser les performances des structures suivantes [ArrayList<>](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) et [LinkedList<>](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html). Pour savoir quand et pourquoi utiliser une structure ou une autre.
 
 ### Paramètres exploratoires du problème
 
