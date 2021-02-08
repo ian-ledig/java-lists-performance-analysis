@@ -2,6 +2,10 @@
 
 [Grille d'évaluation P4a](Evaluation.md)
 
+## Language
+
+Pour cette session de comparaison, nous utilisons le Java.
+
 ## Problème
 
 ### Description du Problème
