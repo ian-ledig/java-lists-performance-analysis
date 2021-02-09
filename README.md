@@ -27,7 +27,7 @@ Ainsi, nous pouvons comparer les résultats sur chaque opération et en déduire
 ### Organisation objet
 
 Description de l'organisation des classes et interfaces, ou diagramme de classes.
-[diagram_de_class.vpd](/uploads/17a622b5bc3923e3357c5d3f036c6b57/diagram_de_class.vpd)
+
 
 ### Application
 
