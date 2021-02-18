@@ -7,11 +7,15 @@ import java.util.LinkedList;
 public class LinkedListTest extends LinkedList implements ElementsManagement {
     @Override
     public void insertValue(int element, int position) {
-        add(get(size() - 1));
-        for(int i = size() - 1; i > position; i--){
-            set(i, get(i - 1));
+        if(size() > 0){
+            add(get(size() - 1));
+            for(int i = size() - 1; i > position; i--){
+                set(i, get(i - 1));
+            }
+            set(position, element);
         }
-        set(position, element);
+        else
+            add(element);
     }
 
     @Override
