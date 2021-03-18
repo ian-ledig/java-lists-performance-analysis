@@ -40,8 +40,8 @@ Notre application permet de tester les temps de réponse de différentes structu
 Usage : java Main <0/1/2> <insert/remove/get> size
 ```
 
-<0/1/2> Correspond au type de liste (0 = ArrayList, 1 = LinkedList, 2 = Vector),
-<insert/remove/get> correspond au type d'opération,
+<0/1/2> Correspond au type de liste (0 = ArrayList, 1 = LinkedList, 2 = Vector),__
+<insert/remove/get> correspond au type d'opération,__
 "size" correspond au nombre d'itérations de l'opération choisie.
 
 ### Environnement de test
@@ -71,9 +71,13 @@ Suite des commandes, ou script, à exécuter pour produire les données.
 
 ### Analyse des résultats préalables
 
-La mémoire se comporte exactement pareil sur les 4 versions.
-Les temps d'exécutions dépendent essentiellement de l'affichage des valeurs du tableau.
-La version 2 de recherche semble un peu plus rapide.
+![Capture](https://git.unistra.fr/iledig/P4a/-/blob/master/screens/graph.png)
+
+On voit que le Vector est celui qui a l'air de consommer le moins de mémoire et qu'il est quasiment équivalent à l'ArrayList au niveau du temps d'exécution. La LinkedList consomme bien plus et utilise un plus grand temps d'exécution. On comprend assez rapidement qu'elle est à utiliser en dernier recours par rapport aux deux autres étudié.__
+
+On peut établir un ordre d'utilisation prioritaire pour consommer le moins de mémoire possible tout en ayant des délais de réponse respectables :__
+
+Vector > ArrayList > LinkedList
 
 ### Discussion des résultats préalables
 
