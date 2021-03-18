@@ -32,10 +32,17 @@ Description de l'organisation des classes et interfaces, ou diagramme de classes
 
 ### Application
 
-[code source de l'application](chemin)
+[code source de l'application](https://git.unistra.fr/iledig/P4a/-/tree/master/program)
+
+Notre application permet de tester les temps de réponse de différentes structures. Ainsi, on peut la lancer en exécutant le fichier run.sh qui affichera un récapitulatif des temps de réponse. Ainsi, lorsque le fichier d'exécution est lancé, il appelle le programme de test avec les arguments suivants : 
+
 ```
-Description de l'application et des arguments
+Usage : java Main <0/1/2> <insert/remove/get> size
 ```
+
+<0/1/2> Correspond au type de liste (0 = ArrayList, 1 = LinkedList, 2 = Vector),
+<insert/remove/get> correspond au type d'opération,
+"size" correspond au nombre d'itérations de l'opération choisie.
 
 ### Environnement de test
 
