@@ -56,10 +56,14 @@ Extrait pertinent de /proc/cpuinfo
 
 ### Description de la démarche systématique
 
-Description de la démarche systématique et de l'espace d'exploration pour chaque paramètres.
+à compléter
+
+Pour ce qui est de notre démarche systématique :
+et de notre espace d'exploration: pour chaque paramètres.
 
 ```
 Suite des commandes, ou script, à exécuter pour produire les données.
+Étape 1 compiler le fichier run.sh qui nous vas crée un fichier 
 ```
 
 ## Résultats préalables
