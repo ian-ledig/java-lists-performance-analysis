@@ -14,11 +14,14 @@ Pendant tout notre DUT nous avons utilisé en java principalement les ArrayList<
 
 ### Paramètres exploratoires du problème
 
-Dans le cadre des tests de comparaison de performance entre une ArrayList et une LinkedList en Java, nous avons mis en place les tests de rapidité et de performance suivants.
+Dans le cadre des tests de comparaison de performance entre une ArrayList, Vector et LinkedList en Java, nous avons mis en place les tests de rapidité et de performance suivants.
 
-- Ajout d'éléments dans chaque liste,
-- suppression d'éléments dans chaque list,
-- récupération d'éléments dans chaque list.
+- Remplissage d'éléments dans chaque liste,
+- Ajout d'éléments dans chaque liste au début au milieu et à la fin,
+- suppression d'éléments dans chaque list au début au milieu et à la fin,
+- récupération d'éléments dans chaque list au début au milieu et à la fin,
+- modification d'éléments dans chaque list au début au milieu et à la fin,
+
 
 Ainsi, nous pouvons comparer les résultats sur chaque opération et en déduire laquelle est la plus optimale en fonction de l'utilisation souhaitée avec un bon rapport rapidité/performance CPU utilisé.
 
