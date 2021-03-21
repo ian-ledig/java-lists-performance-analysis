@@ -56,14 +56,18 @@ Extrait pertinent de /proc/cpuinfo
 
 ### Description de la démarche systématique
 
-à compléter
-
-Pour ce qui est de notre démarche systématique :
-et de notre espace d'exploration: pour chaque paramètres.
-
 ```
 Suite des commandes, ou script, à exécuter pour produire les données.
-Étape 1 compiler le fichier run.sh qui nous vas crée un fichier 
+
+La démarche systématique consiste à lancer le fichier run.sh qui vas executer le code. Une fois le code executer. Cela aura générer un fichier Perf.csv et le lancer avec le logiciel R qui lui grace au fichier Rscript.R vas generer 4 graphique: 
+-Graph_Time.png qui afiche la consommation CPU des Structures ArrayList, LinkedList et Vector
+
+-Graph_Mémoire.png  qui afiche la consommation Memoir des Structures ArrayList, LinkedList et Vector
+
+-Graph_Time_VA.png  qui afiche la consommation CPU des Structures ArrayList, LinkedList et Vector, mais qui est générer pour comparer les structure ArrayList et Vector
+
+-Graph_Time_VA2.png  qui afiche la consommation CPU des Structures ArrayList, LinkedList et Vector, mais qui est générer pour comparer les structure ArrayList et Vector
+
 ```
 
 ## Résultats préalables
