@@ -4,7 +4,7 @@
 
 ## Language
 
-Pour cette session de comparaison, nous utilisons le Java.
+Pour cette session de comparaison, nous utilisons le language de programmation orientée objet Java.
 
 ## Problème
 
@@ -37,15 +37,6 @@ Description de l'organisation des classes et interfaces, ou diagramme de classes
 
 [code source de l'application](https://git.unistra.fr/iledig/P4a/-/tree/master/program)
 
-Notre application permet de tester les temps de réponse de différentes structures. Ainsi, on peut la lancer en exécutant le fichier run.sh qui affichera un récapitulatif des temps de réponse. Ainsi, lorsque le fichier d'exécution est lancé, il appelle le programme de test avec les arguments suivants : 
-
-```
-Usage : java Main <0/1/2> <insert/remove/get> size
-```
-
-<0/1/2> Correspond au type de liste (0 = ArrayList, 1 = LinkedList, 2 = Vector),__
-<insert/remove/get> correspond au type d'opération,__
-"size" correspond au nombre d'itérations de l'opération choisie.
 
 ### Environnement de test
 
@@ -93,12 +84,10 @@ On observe que plus la taille de la structure est grande plus la strucure Vector
 
 **Consommation CPU**
 
-On observe que la structure LinkedList se distingue fortement des autres structures avec la partie consomation du CPU qui augemente de manière exponentiel plus la taille de la structure est grande. Pour les structures Vector et ArrayList on remarque pas de grande differences mais on constate encore une fois que la structure Vector est plus performentes lus la taille du tableau est grande.
+On observe que la structure LinkedList se distingue fortement des autres structures avec la partie consomation du CPU qui augemente de manière exponentiel plus la taille de la structure est grande. On constate pour  la structure LinkedList que a partir d'un certain niveau le saut entre deux palier est grande . Pour les structures Vector et ArrayList on remarque pas de grande differences mais on constate encore une fois que la structure Vector est plus performentes lus la taille du tableau est grande.
 
-On voit que le Vector est celui qui a l'air de consommer le moins de mémoire et qu'il est quasiment équivalent à l'ArrayList au niveau du temps d'exécution. La LinkedList consomme bien plus et utilise un plus grand temps d'exécution. On comprend assez rapidement qu'elle est à utiliser en dernier recours par rapport aux deux autres étudié.__
-
-On peut établir un ordre d'utilisation prioritaire pour consommer le moins de mémoire possible tout en ayant des délais de réponse respectables :__
-
+**Consommation CPU et Mémoire**
+On peux en déduire que en général la structure la plus performantes sur des lites de grande tailles est la structure Vector suivie de près par la structure ArrayList et suivie de loin par LinkedList accause de sa trop grande consommation du CPU.
 Vector > ArrayList > LinkedList
 
 ### Discussion des résultats préalables
