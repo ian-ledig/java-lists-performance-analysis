@@ -105,9 +105,9 @@ Pour la structure LinkedList qui hérite aussi de List<> mais est moin performan
 
 ### Hypothèse
 
-Tous au long de notre analyse du résultats préalables nous avons constater que les ArrayList et les Vectors possèdes des performances équivalente. Il serait judicieux de savoir finalement qu'elles est la structure la plus intéressant ?
+Tous au long de notre analyse du résultats préalables nous avons constater que les ArrayList et les Vectors possèdes des performances équivalente. Il serait judicieux de savoir finalement qu'elles est la structure la plus intéressant sur des structure de plus de cinq-millions de valeurs ?
 
-Pour le savoir nous allons utiliser des structures ArrayList et Vector qui seront composer de 50 millions d'objets et faire différentes actions sur ces structures.
+Pour le savoir nous allons utiliser des structures ArrayList et Vector qui seront composer de cinq-millions d'objets et faire différentes actions sur ces structures.
 
 ### Protocole expérimental de vérification de l'hypothèse
 
@@ -119,7 +119,12 @@ La démarche systématique consiste à lancer le fichier runH.sh qui vas execute
 ### Résultats expérimentaux
 
 ### Analyse des résultats expérimentaux
+**Consommation Mémoire**
+
 
 ### Discussion des résultats expérimentaux
 
+Grâce au nouveau graphique nous avons pu constater que les opérations que nous effectuons sur les deux structures sont plus rapide sur la structure Vector et consomme moins d'espace mémoire que la structure ArrayList.
 ## Conclusion et travaux futurs
+
+Nous pouvons en conclure que pour notre utilisation nous devrons plus utiliser les vector car ils sont plus performents et consomme moins d'espace mémoire quand nous manipulons beaucoup de donnée. Pour les travaux futurs on pourrais essayer de savoir à partir de quelle taille de structure Vector serais t-elle a prévilégier car dans ce projet nous nous somme concenter sur la manipulation grande structure.
