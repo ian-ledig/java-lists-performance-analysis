@@ -80,6 +80,7 @@ La démarche systématique consiste à lancer le fichier run.sh qui vas executer
 ### Analyse des résultats préalables
 
 **Consommation Mémoire**
+
 On observe que plus la taille de la structure est grande plus la strucure Vector est la structure qui consomme le moin d'espace de mémoire suivis de près par la strucutre ArrayList. Pour ce qui est de la strucure LindeList c'est la structure qui consomme le plus d'espace de mémoire plus la taille est grande. On constate que pour l'ensemble des structure il y a des palliers qui apparraisse selon la taille de la structure. C'est à dire que lorsque la taille dépasse une certain quantité ou descent en dessous d'une certaine quantité la consomation vas fortement augementer ou diminuer.
 
 **Consommation CPU**
@@ -87,6 +88,7 @@ On observe que plus la taille de la structure est grande plus la strucure Vector
 On observe que la structure LinkedList se distingue fortement des autres structures avec la partie consomation du CPU qui augemente de manière exponentiel plus la taille de la structure est grande. On constate pour la structure LinkedList que a partir d'un certain niveau le saut entre deux palier est grande d'environ 8sec. Pour les structures Vector et ArrayList on remarque pas de grande differences mais on constate encore une fois que la structure Vector est plus performentes lus la taille du tableau est grande.
 
 **Consommation CPU et Mémoire**
+
 On peux en déduire que en général la structure la plus performantes sur des lites de grande tailles est la structure Vector suivie de près par la structure ArrayList et suivie de loin par LinkedList accause de sa trop grande consommation du CPU.
 Vector > ArrayList > LinkedList
 
@@ -109,11 +111,10 @@ Pour le savoir nous allons utiliser des structures ArrayList et Vector qui seron
 
 ### Protocole expérimental de vérification de l'hypothèse
 
-Expression précise et succincte du protocole.
-
 ```
-Suite des commandes, ou script, à exécuter pour produire les données.
+Ligne de commande à executer: ./runH.sh
 ```
+La démarche systématique consiste à lancer le fichier runH.sh qui vas executer le code. Une fois le code executer. Cela aura générer un fichier PerfH.csv et le lancer avec le logiciel R qui lui grace au fichier RHscript.R vas generer differents graphique pour pouvoir comparer les structure Vector et ArrayList.
 
 ### Résultats expérimentaux
 
