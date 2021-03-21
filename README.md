@@ -10,15 +10,18 @@ Pour cette session de comparaison, nous utilisons le Java.
 
 ### Description du Problème
 
-Pendant tout notre DUT nous avons utilisé en java principalement les ArrayList<> pour stocker des informations dans un tableau mais est-ce toujours le bon choix. C’est pourquoi nous allons analyser les performances des structures suivantes : [ArrayList<>](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html), [HashMap<>](https://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html), [Stack<>](https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html) et [LinkedList<>](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html). Pour savoir quand et pourquoi utiliser une structure ou une autre.
+Pendant tout notre DUT nous avons utilisé en java principalement les ArrayList<> pour stocker des informations dans un tableau mais est-ce toujours le bon choix. C’est pourquoi nous allons analyser les performances des structures suivantes : [ArrayList<>](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html), [Vector<>](https://docs.oracle.com/javase/7/docs/api/java/util/Vector.html) et [LinkedList<>](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html). Pour savoir quand et pourquoi utiliser une structure ou une autre.
 
 ### Paramètres exploratoires du problème
 
-Dans le cadre des tests de comparaison de performance entre une ArrayList et une LinkedList en Java, nous avons mis en place les tests de rapidité et de performance suivants.
+Dans le cadre des tests de comparaison de performance entre une ArrayList, Vector et LinkedList en Java, nous avons mis en place les tests de rapidité et de performance suivants.
 
-- Ajout d'éléments dans chaque liste,
-- suppression d'éléments dans chaque list,
-- récupération d'éléments dans chaque list.
+- Remplissage d'éléments dans chaque liste,
+- Ajout d'éléments dans chaque liste au début au milieu et à la fin,
+- suppression d'éléments dans chaque list au début au milieu et à la fin,
+- récupération d'éléments dans chaque list au début au milieu et à la fin,
+- modification d'éléments dans chaque list au début au milieu et à la fin,
+
 
 Ainsi, nous pouvons comparer les résultats sur chaque opération et en déduire laquelle est la plus optimale en fonction de l'utilisation souhaitée avec un bon rapport rapidité/performance CPU utilisé.
 
@@ -53,10 +56,14 @@ Extrait pertinent de /proc/cpuinfo
 
 ### Description de la démarche systématique
 
-Description de la démarche systématique et de l'espace d'exploration pour chaque paramètres.
+à compléter
+
+Pour ce qui est de notre démarche systématique :
+et de notre espace d'exploration: pour chaque paramètres.
 
 ```
 Suite des commandes, ou script, à exécuter pour produire les données.
+Étape 1 compiler le fichier run.sh qui nous vas crée un fichier 
 ```
 
 ## Résultats préalables
