@@ -84,7 +84,7 @@ On observe que plus la taille de la structure est grande plus la strucure Vector
 
 **Consommation CPU**
 
-On observe que la structure LinkedList se distingue fortement des autres structures avec la partie consomation du CPU qui augemente de manière exponentiel plus la taille de la structure est grande. On constate pour  la structure LinkedList que a partir d'un certain niveau le saut entre deux palier est grande . Pour les structures Vector et ArrayList on remarque pas de grande differences mais on constate encore une fois que la structure Vector est plus performentes lus la taille du tableau est grande.
+On observe que la structure LinkedList se distingue fortement des autres structures avec la partie consomation du CPU qui augemente de manière exponentiel plus la taille de la structure est grande. On constate pour la structure LinkedList que a partir d'un certain niveau le saut entre deux palier est grande d'environ 8sec. Pour les structures Vector et ArrayList on remarque pas de grande differences mais on constate encore une fois que la structure Vector est plus performentes lus la taille du tableau est grande.
 
 **Consommation CPU et Mémoire**
 On peux en déduire que en général la structure la plus performantes sur des lites de grande tailles est la structure Vector suivie de près par la structure ArrayList et suivie de loin par LinkedList accause de sa trop grande consommation du CPU.
@@ -95,11 +95,17 @@ Vector > ArrayList > LinkedList
 Explications précises et succinctes sur ce que les limites des résultats
 préalables et ce qu'ils ne permettent pas de vérifier.
 
+Sur nos résultats préalables on remarque que les structures ArrayListet Vector sont très similaires.
+Pour notre utilisation au dut on pourrait remplacer une ArrayList par un Vector on ne verrais pas la différence et inversement.
+Pour la structure LinkedList qui hérite aussi de List<> mais est moin performant qui est surment du au fait que cette strucuture utilise beaucoup de petits objets de mémoire ce qui signifie que toute opération indexée nécessite une opération transversale.
+
 ## Etude approfondie
 
 ### Hypothèse
 
-Expression précise et succincte d'une hypothèse.
+Tous au long de notre analyse du résultats préalables nous avons constater que les ArrayList et les Vectors possèdes des performances équivalente. Il serait judicieux de savoir finalement qu'elles est la structure la plus intéressant ?
+
+Pour le savoir nous allons utiliser des structures ArrayList et Vector qui seront composer de 50 millions d'objets et faire différentes actions sur ces structures.
 
 ### Protocole expérimental de vérification de l'hypothèse
 
