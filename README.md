@@ -61,13 +61,15 @@ Ligne de commande à executer: ./run.sh
 ```
 
 La démarche systématique consiste à lancer le fichier run.sh qui vas executer le code. Une fois le code executer. Cela aura générer un fichier Perf.csv et le lancer avec le logiciel R qui lui grace au fichier Rscript.R vas generer 4 graphique: 
--Graph_Time.png qui afiche la consommation CPU des Structures ArrayList, LinkedList et Vector
 
--Graph_Mémoire.png  qui afiche la consommation Memoir des Structures ArrayList, LinkedList et Vector
+- -Graph_Time.png qui afiche la consommation CPU des Structures ArrayList, LinkedList et Vector
+- 
+- -Graph_Mémoire.png  qui afiche la consommation Memoir des Structures ArrayList, LinkedList et Vector
 
--Graph_Time_VA.png  qui afiche la consommation CPU des Structures ArrayList, LinkedList et Vector, mais qui est générer pour comparer les structure ArrayList et Vector
+- Graph_Time_VA.png  qui afiche la consommation CPU des Structures ArrayList, LinkedList et Vector, mais qui est générer pour comparer les structure ArrayList et Vector
 
--Graph_Time_VA2.png  qui afiche la consommation CPU des Structures ArrayList, LinkedList et Vector, mais qui est générer pour comparer les structure ArrayList et Vector
+- -Graph_Time_VA2.png  qui afiche la consommation CPU des Structures ArrayList, LinkedList et Vector
+
 
 
 
@@ -75,18 +77,17 @@ La démarche systématique consiste à lancer le fichier run.sh qui vas executer
 
 ### Temps d'exécution
 
-![plot](prealable.png)
+![Capture](https://cdn.discordapp.com/attachments/784035216964059136/823135679135350784/Graph_Time.png)
+![Capture](https://cdn.discordapp.com/attachments/784035216964059136/823135696734650408/Graph_Time_VA2.png)
+![Capture](https://cdn.discordapp.com/attachments/784035216964059136/823135705214746654/Graph_Time_VA.png)
 
 ### Consommation mémoire
 
-![plot](prealable-mem.png)
+![Capture](https://cdn.discordapp.com/attachments/784035216964059136/823135684671963166/Graph_Memoire.png)
 
 ### Analyse des résultats préalables
 
-![Capture](https://cdn.discordapp.com/attachments/784035216964059136/823135679135350784/Graph_Time.png)
-![Capture](https://cdn.discordapp.com/attachments/784035216964059136/823135684671963166/Graph_Memoire.png)
-![Capture](https://cdn.discordapp.com/attachments/784035216964059136/823135696734650408/Graph_Time_VA2.png)
-![Capture](https://cdn.discordapp.com/attachments/784035216964059136/823135705214746654/Graph_Time_VA.png)
+
 
 On voit que le Vector est celui qui a l'air de consommer le moins de mémoire et qu'il est quasiment équivalent à l'ArrayList au niveau du temps d'exécution. La LinkedList consomme bien plus et utilise un plus grand temps d'exécution. On comprend assez rapidement qu'elle est à utiliser en dernier recours par rapport aux deux autres étudié.__
 
