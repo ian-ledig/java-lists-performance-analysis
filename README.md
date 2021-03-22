@@ -70,9 +70,9 @@ La démarche systématique consiste à lancer le fichier run.sh qui vas executer
 
 |   Légende   |   ArrayList	|   Vector	|   LinkedList	|
 |---	      |---	        |   ---	    |   ---	        |
-|      Ajout          |  ![plot](Projet/img/arraylist_get.png)   |  ![plot](P4a/img/vector_get.png) |  ![plot](P4a/img/vector_get.png) 
-|      Modification   |  ![plot](P4a/img/arraylist_modify.png) |  ![plot](P4a/img/vector_modify.png)|  ![plot](P4a/img/vector_get.png) 
-|      Suppression    |  ![plot](P4a/img/arraylist_remove.png) |  ![plot](P4a/img/vector_remove.png)|  ![plot](P4a/img/vector_get.png) 
+|      Ajout          |  ![plot](Projet/img/arraylist_get.png)   |  ![plot](Projet/img/vector_get.png) |  ![plot](Projet/img/vector_get.png) 
+|      Modification   |  ![plot](Projet/img/arraylist_modify.png) |  ![plot](Projet/img/vector_modify.png)|  ![plot](Projet/img/vector_modify.png) 
+|      Suppression    |  ![plot](Projet/img/arraylist_remove.png) |  ![plot](Projet/img/vector_remove.png)|  ![plot](Projet/img/vector_remove.png)  
 
 ### Consommation mémoire
 
