@@ -143,9 +143,9 @@ La démarche systématique consiste à lancer le fichier runH.sh qui vas execute
 
 |   Légende   |   ArrayList	|   Vector	| 
 |---	      |---	        |   ---	    |
-|      Ajout         |  ![plot](Projet/imgH/arraylist_get_hypothese_memory.png) 	    |  ![plot](Projet/imgH/vector_get_hypothese_memory.png) 	|
-|      Modification         |  ![plot](Projet/imgH/arraylist_modify_hypothese_memory.png) 	|  ![plot](Projet/imgH/vector_modify_hypothese_memory.png)|
-|      Suppression          |  ![plot](Projet/imgH/arraylist_remove_hypothese_memory.png) 	|  ![plot](Projet/imgH/vector_remove_hypothese_memory.png) |
+|      Ajout         |  ![plot](Projet/imgH/arraylist_get_hypothese.png) 	    |  ![plot](Projet/imgH/vector_get_hypothese.png) 	|
+|      Modification         |  ![plot](Projet/imgH/arraylist_modify_hypothese.png) 	|  ![plot](Projet/imgH/vector_modify_hypothese.png)|
+|      Suppression          |  ![plot](Projet/imgH/arraylist_remove_hypothese.png) 	|  ![plot](Projet/imgH/vector_remove_hypothese.png) |
 
 ### Consommation mémoire
 |   Légende   |   ArrayList	|   Vector	| 
