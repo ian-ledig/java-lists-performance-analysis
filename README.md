@@ -59,7 +59,7 @@ La démarche systématique consiste à lancer le fichier run.sh qui vas executer
 
 - Graph_Time_VA.png  qui afiche la consommation CPU des Structures ArrayList, LinkedList et Vector, mais qui est générer pour comparer les structure ArrayList et Vector
 
-- -Graph_Time_VA2.png  qui afiche la consommation CPU des Structures ArrayList, LinkedList et Vector
+- Graph_Time_VA2.png  qui afiche la consommation CPU des Structures ArrayList, LinkedList et Vector
 
 
 
@@ -68,14 +68,32 @@ La démarche systématique consiste à lancer le fichier run.sh qui vas executer
 
 ### Temps d'exécution
 
-![Capture](https://cdn.discordapp.com/attachments/784035216964059136/823135679135350784/Graph_Time.png)
-![Capture](https://cdn.discordapp.com/attachments/784035216964059136/823135696734650408/Graph_Time_VA2.png)
-**Consommation CPU**
-![Capture](https://cdn.discordapp.com/attachments/784035216964059136/823135705214746654/Graph_Time_VA.png)
+|   Graph   |
+|---	    |
+|![plot](Projet/imgAnalyse/Graph_Time.png)|
+|![plot](Projet/imgAnalyse/Graph_Time_VA2.png)|
+|![plot](Projet/imgAnalyse/Graph_Time_VA.png)|
+
+|   Légende   |   ArrayList	|   Vector	|   LinkedList	|
+|---	      |---	        |   ---	    |   ---	        |
+|      Ajout          |  ![plot](Projet/img/arraylist_get.png)   |  ![plot](Projet/img/vector_get.png) |  ![plot](Projet/img/vector_get.png) 
+|      Modification   |  ![plot](Projet/img/arraylist_modify.png) |  ![plot](Projet/img/vector_modify.png)|  ![plot](Projet/img/vector_modify.png) 
+|      Suppression    |  ![plot](Projet/img/arraylist_remove.png) |  ![plot](Projet/img/vector_remove.png)|  ![plot](Projet/img/vector_remove.png)  
 
 ### Consommation mémoire
 
-![Capture](https://cdn.discordapp.com/attachments/784035216964059136/823135684671963166/Graph_Memoire.png)
+|   Graph   |
+|---	    |
+|![plot](Projet/imgAnalyse/Graph_Memoire.png)|
+|![plot](Projet/imgAnalyse/Graph_Memoire_VA2.png)|
+|![plot](Projet/imgAnalyse/Graph_Memoire_VA.png)|
+
+|   Légende   |   ArrayList	|   Vector	|   LinkedList	|
+|---	      |---	        |   ---	    |   ---	        |
+|      Ajout          |  ![plot](Projet/img/arraylist_memory_get.png) 	    |  ![plot](Projet/img/vector_memory_get.png) 	|   ![plot](Projet/img/linkedList_memory_get.png) 	|
+|      Modification         |  ![plot](Projet/img/arraylist_modify_memory.png) 	|  ![plot](Projet/img/vector_modify_memory.png)	|   ![plot](Projet/img/linkedlist_modify_memory.png)	|
+|      Suppression          |  ![plot](Projet/img/arraylist_remove_memory.png) 	|  ![plot](Projet/img/vector_remove_memory.png) 	|   ![plot](Projet/img/linkedlist_remove_memory.png)	|
+
 
 ### Analyse des résultats préalables
 
@@ -117,6 +135,19 @@ Ligne de commande à executer: ./runH.sh
 La démarche systématique consiste à lancer le fichier runH.sh qui vas executer le code. Une fois le code executer. Cela aura générer un fichier PerfH.csv et le lancer avec le logiciel R qui lui grace au fichier RHscript.R vas generer differents graphique pour pouvoir comparer les structure Vector et ArrayList.
 
 ### Résultats expérimentaux
+
+|   Légende   |   ArrayList	|   Vector	| 
+|---	      |---	        |   ---	    |
+|      Ajout         |  ![plot](Projet/imgH/arraylist_get_hypothese_memory.png) 	    |  ![plot](Projet/imgH/vector_get_hypothese_memory.png) 	|
+|      Modification         |  ![plot](Projet/imgH/arraylist_modify_hypothese_memory.png) 	|  ![plot](Projet/imgH/vector_modify_hypothese_memory.png)	|
+|      Suppression          |  ![plot](Projet/imgH/arraylist_remove_hypothese_memory.png) 	|  ![plot](Projet/imgH/vector_remove_hypothese_memory.png) 	|
+
+
+|   Légende   |   ArrayList	|   Vector	| 
+|---	      |---	        |   ---	    |
+|      Ajout         |  ![plot](Projet/imgH/arraylist_get_hypothese_memory.png) 	    |  ![plot](Projet/imgH/vector_get_hypothese_memory.png) 	|
+|      Modification         |  ![plot](Projet/imgH/arraylist_modify_hypothese_memory.png) 	|  ![plot](Projet/imgH/vector_modify_hypothese_memory.png)	|
+|      Suppression          |  ![plot](Projet/imgH/arraylist_remove_hypothese_memory.png) 	|  ![plot](Projet/imgH/vector_remove_hypothese_memory.png) 	|
 
 ### Analyse des résultats expérimentaux
 **Consommation Mémoire**
