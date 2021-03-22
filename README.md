@@ -70,7 +70,7 @@ La démarche systématique consiste à lancer le fichier run.sh qui vas executer
 
 |   Légende   |   ArrayList	|   Vector	|   LinkedList	|
 |---	      |---	        |   ---	    |   ---	        |
-|      Ajout          |  ![plot](P4a/img/arraylist_gete.png)   |  ![plot](P4a/img/vector_gete.png) 
+|      Ajout          |  ![plot](P4a/img/arraylist_get.png)   |  ![plot](P4a/img/vector_get.png) 
 |      Modification   |  ![plot](P4a/img/arraylist_modify.png) |  ![plot](P4a/img/vector_modify.png)
 |      Suppression    |  ![plot](P4a/img/arraylist_remove.png) |  ![plot](P4a/img/vector_remove.png)
 
