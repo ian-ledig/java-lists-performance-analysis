@@ -1,0 +1,143 @@
+filter                  package:dplyr                  R Documentation
+
+_S_u_b_s_e_t _r_o_w_s _u_s_i_n_g _c_o_l_u_m_n _v_a_l_u_e_s
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     The ‘filter()’ function is used to subset a data frame, retaining
+     all rows that satisfy your conditions. To be retained, the row
+     must produce a value of ‘TRUE’ for all conditions. Note that when
+     a condition evaluates to ‘NA’ the row will be dropped, unlike base
+     subsetting with ‘[’.
+
+_U_s_a_g_e:
+
+     filter(.data, ..., .preserve = FALSE)
+     
+_A_r_g_u_m_e_n_t_s:
+
+   .data: A data frame, data frame extension (e.g. a tibble), or a lazy
+          data frame (e.g. from dbplyr or dtplyr). See _Methods_,
+          below, for more details.
+
+     ...: <‘data-masking’> Expressions that return a logical value, and
+          are defined in terms of the variables in ‘.data’. If multiple
+          expressions are included, they are combined with the ‘&’
+          operator. Only rows for which all conditions evaluate to
+          ‘TRUE’ are kept.
+
+.preserve: Relevant when the ‘.data’ input is grouped. If ‘.preserve =
+          FALSE’ (the default), the grouping structure is recalculated
+          based on the resulting data, otherwise the grouping is kept
+          as is.
+
+_D_e_t_a_i_l_s:
+
+     The ‘filter()’ function is used to subset the rows of ‘.data’,
+     applying the expressions in ‘...’ to the column values to
+     determine which rows should be retained. It can be applied to both
+     grouped and ungrouped data (see ‘group_by()’ and ‘ungroup()’).
+     However, dplyr is not yet smart enough to optimise the filtering
+     operation on grouped datasets that do not need grouped
+     calculations. For this reason, filtering is often considerably
+     faster on ungrouped data.
+
+_V_a_l_u_e:
+
+     An object of the same type as ‘.data’. The output has the
+     following properties:
+
+        • Rows are a subset of the input, but appear in the same order.
+
+        • Columns are not modified.
+
+        • The number of groups may be reduced (if ‘.preserve’ is not
+          ‘TRUE’).
+
+        • Data frame attributes are preserved.
+
+_U_s_e_f_u_l _f_i_l_t_e_r _f_u_n_c_t_i_o_n_s:
+
+     There are many functions and operators that are useful when
+     constructing the expressions used to filter the data:
+
+        • ‘==’, ‘>’, ‘>=’ etc
+
+        • ‘&’, ‘|’, ‘!’, ‘xor()’
+
+        • ‘is.na()’
+
+        • ‘between()’, ‘near()’
+
+_G_r_o_u_p_e_d _t_i_b_b_l_e_s:
+
+     Because filtering expressions are computed within groups, they may
+     yield different results on grouped tibbles. This will be the case
+     as soon as an aggregating, lagging, or ranking function is
+     involved. Compare this ungrouped filtering:
+     
+     starwars %>% filter(mass > mean(mass, na.rm = TRUE))
+
+     With the grouped equivalent:
+     
+     starwars %>% group_by(gender) %>% filter(mass > mean(mass, na.rm = TRUE))
+
+     In the ungrouped version, ‘filter()’ compares the value of ‘mass’
+     in each row to the global average (taken over the whole data set),
+     keeping only the rows with ‘mass’ greater than this global
+     average. In contrast, the grouped version calculates the average
+     mass separately for each ‘gender’ group, and keeps rows with
+     ‘mass’ greater than the relevant within-gender average.
+
+_M_e_t_h_o_d_s:
+
+     This function is a *generic*, which means that packages can
+     provide implementations (methods) for other classes. See the
+     documentation of individual methods for extra arguments and
+     differences in behaviour.
+
+     The following methods are currently available in loaded packages:
+     no methods found.
+
+_S_e_e _A_l_s_o:
+
+     Other single table verbs: ‘arrange()’, ‘mutate()’, ‘rename()’,
+     ‘select()’, ‘slice()’, ‘summarise()’
+
+_E_x_a_m_p_l_e_s:
+
+     # Filtering by one criterion
+     filter(starwars, species == "Human")
+     filter(starwars, mass > 1000)
+     
+     # Filtering by multiple criteria within a single logical expression
+     filter(starwars, hair_color == "none" & eye_color == "black")
+     filter(starwars, hair_color == "none" | eye_color == "black")
+     
+     # When multiple expressions are used, they are combined using &
+     filter(starwars, hair_color == "none", eye_color == "black")
+     
+     
+     # The filtering operation may yield different results on grouped
+     # tibbles because the expressions are computed within groups.
+     #
+     # The following filters rows where `mass` is greater than the
+     # global average:
+     starwars %>% filter(mass > mean(mass, na.rm = TRUE))
+     
+     # Whereas this keeps rows with `mass` greater than the gender
+     # average:
+     starwars %>% group_by(gender) %>% filter(mass > mean(mass, na.rm = TRUE))
+     
+     
+     # To refer to column names that are stored as strings, use the `.data` pronoun:
+     vars <- c("mass", "height")
+     cond <- c(80, 150)
+     starwars %>%
+       filter(
+         .data[[vars[[1]]]] > cond[[1]],
+         .data[[vars[[2]]]] > cond[[2]]
+       )
+     # Learn more in ?dplyr_data_masking
+     
+

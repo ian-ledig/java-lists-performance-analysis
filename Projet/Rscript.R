@@ -84,17 +84,17 @@ ggplot(perf[perf$Action=="changeValue_first" & perf$Structure=="linkedlist" | pe
 		 ggtitle("CPU de modification d'un objet d'une LinkedList")
 ggsave("img/linkedlist_modify.png")
 
-ggplot(perf[perf$Action=="removeValue_first" & perf$Structure=="arraylist" | perf$Action=="removeValue_middle" & perf$Structure=="arraylist" | perf$Action=="removeLastElement"
+ggplot(perf[perf$Action=="removeValue_first" & perf$Structure=="arraylist" | perf$Action=="removeValue_middle" & perf$Structure=="arraylist" | perf$Action=="removeValue_last"
 	 & perf$Structure=="arraylist",], aes(x=Taille, y=CPU, color=Action)) + geom_point() + geom_smooth() + facet_grid(.~Action)
 		 ggtitle("CPU de suppresion d'un objet d'une ArrayList")
 ggsave("img/arraylist_remove.png")
 
-ggplot(perf[perf$Action=="removeValue_first" & perf$Structure=="vector" | perf$Action=="removeValue_middle" & perf$Structure=="vector" | perf$Action=="removeLastElement"
+ggplot(perf[perf$Action=="removeValue_first" & perf$Structure=="vector" | perf$Action=="removeValue_middle" & perf$Structure=="vector" | perf$Action=="removeValue_last"
 	 & perf$Structure=="vector",], aes(x=Taille, y=CPU, color=Action)) + geom_point() + geom_smooth() + facet_grid(.~Action)
 		 ggtitle("CPU de suppresion d'un objet d'un Vecteur")
 ggsave("img/vector_remove.png")
 
-ggplot(perf[perf$Action=="removeValue_first" & perf$Structure=="linkedlist" | perf$Action=="removeValue_middle" & perf$Structure=="linkedlist" | perf$Action=="removeLastElement"
+ggplot(perf[perf$Action=="removeValue_first" & perf$Structure=="linkedlist" | perf$Action=="removeValue_middle" & perf$Structure=="linkedlist" | perf$Action=="removeValue_last"
 	 & perf$Structure=="linkedlist",], aes(x=Taille, y=CPU, color=Action)) + geom_point() + geom_smooth() + facet_grid(.~Action)
 		 ggtitle("CPU de suppresion d'un objet d'une LinkedList")
 ggsave("img/linkedlist_remove.png")
@@ -131,17 +131,17 @@ ggplot(perf[perf$Action=="changeValue_first" & perf$Structure=="linkedlist" | pe
 		 ggtitle("Mémoire nécessaire pour la modification d'un objet d'une LinkedList")
 ggsave("img/linkedlist_modify_memory.png")
 
-ggplot(perf[perf$Action=="removeValue_first" & perf$Structure=="arraylist" | perf$Action=="removeValue_middle" & perf$Structure=="arraylist" | perf$Action=="removeLastElement"
+ggplot(perf[perf$Action=="removeValue_first" & perf$Structure=="arraylist" | perf$Action=="removeValue_middle" & perf$Structure=="arraylist" | perf$Action=="removeValue_last"
 	 & perf$Structure=="arraylist",], aes(x=Taille, y=Mem, color=Action)) + geom_point() + geom_smooth() + facet_grid(.~Action)
 		 ggtitle("Mémoire nécessaire pour la suppresion d'un objet d'une ArrayList")
 ggsave("img/arraylist_remove_memory.png")
 
-ggplot(perf[perf$Action=="removeValue_first" & perf$Structure=="vector" | perf$Action=="removeValue_middle" & perf$Structure=="vector" | perf$Action=="removeLastElement"
+ggplot(perf[perf$Action=="removeValue_first" & perf$Structure=="vector" | perf$Action=="removeValue_middle" & perf$Structure=="vector" | perf$Action=="removeValue_last"
 	 & perf$Structure=="vector",], aes(x=Taille, y=Mem, color=Action)) + geom_point() + geom_smooth() + facet_grid(.~Action)
 		 ggtitle("Mémoire nécessaire pour la suppresion d'un objet d'un Vecteur")
 ggsave("img/vector_remove_memory.png")
 
-ggplot(perf[perf$Action=="removeValue_first" & perf$Structure=="linkedlist" | perf$Action=="removeValue_middle" & perf$Structure=="linkedlist" | perf$Action=="removeLastElement"
+ggplot(perf[perf$Action=="removeValue_first" & perf$Structure=="linkedlist" | perf$Action=="removeValue_middle" & perf$Structure=="linkedlist" | perf$Action=="removeValue_last"
 	 & perf$Structure=="linkedlist",], aes(x=Taille, y=Mem, color=Action)) + geom_point() + geom_smooth() + facet_grid(.~Action)
 		 ggtitle("Mémoire nécessaire pour la suppresion d'un objet d'une LinkedList")
 ggsave("img/linkedlist_remove_memory.png")
