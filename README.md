@@ -68,21 +68,32 @@ La démarche systématique consiste à lancer le fichier run.sh qui vas executer
 
 ### Temps d'exécution
 
+|   Graph   |
+|---	    |
+|![plot](Projet/imgAnalyse/Graph_Time.png)|
+|![plot](Projet/imgAnalyse/Graph_Time_VA2.png)|
+|![plot](Projet/imgAnalyse/Graph_Time_VA.png)|
+
 |   Légende   |   ArrayList	|   Vector	|   LinkedList	|
 |---	      |---	        |   ---	    |   ---	        |
 |      Ajout          |  ![plot](Projet/img/arraylist_get.png)   |  ![plot](Projet/img/vector_get.png) |  ![plot](Projet/img/vector_get.png) 
 |      Modification   |  ![plot](Projet/img/arraylist_modify.png) |  ![plot](Projet/img/vector_modify.png)|  ![plot](Projet/img/vector_modify.png) 
 |      Suppression    |  ![plot](Projet/img/arraylist_remove.png) |  ![plot](Projet/img/vector_remove.png)|  ![plot](Projet/img/vector_remove.png)  
 
+### Consommation mémoire
 
 |   Graph   |
 |---	    |
-|![plot](Projet/imgAnalyse/Graph_Time.png)|
-|![plot](Projet/imgAnalyse/Graph_Time_VA2.png)|
-|![plot](Projet/imgAnalyse/Graph_Time_VA.png)|
-### Consommation mémoire
+|![plot](Projet/imgAnalyse/Graph_Memoire.png)|
+|![plot](Projet/imgAnalyse/Graph_Memoire_VA2.png)|
+|![plot](Projet/imgAnalyse/Graph_Memoire_VA.png)|
 
-![Capture](https://cdn.discordapp.com/attachments/784035216964059136/823135684671963166/Graph_Memoire.png)
+|   Légende   |   ArrayList	|   Vector	|   LinkedList	|
+|---	      |---	        |   ---	    |   ---	        |
+|      Ajout          |  ![plot](Projet/img/arraylist_memory_get.png) 	    |  ![plot](Projet/img/vector_memory_get.png) 	|   ![plot](Projet/img/linkedlist_memory_get.png) 	|
+|      Modification         |  ![plot](Projet/img/arraylist_modify_memory.png) 	|  ![plot](Projet/img/vector_modify_memory.png)	|   ![plot](Projet/img/linkedlist_modify_memory.png)	|
+|      Suppression          |  ![plot](Projet/img/arraylist_remove_memory.png) 	|  ![plot](Projet/img/vector_remove_memory.png) 	|   ![plot](Projet/img/linkedlist_remove_memory.png)	|
+
 
 ### Analyse des résultats préalables
 
