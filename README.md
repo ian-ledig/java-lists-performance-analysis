@@ -90,7 +90,7 @@ La démarche systématique consiste à lancer le fichier run.sh qui vas executer
 
 |   Légende   |   ArrayList	|   Vector	|   LinkedList	|
 |---	      |---	        |   ---	    |   ---	        |
-|      Ajout          |  ![plot](Projet/img/arraylist_memory_get.png) 	    |  ![plot](Projet/img/vector_memory_get.png) 	|   ![plot](Projet/img/linkedlist_memory_get.png) 	|
+|      Ajout          |  ![plot](Projet/img/arraylist_memory_get.png) 	    |  ![plot](Projet/img/vector_memory_get.png) 	|   ![plot](Projet/img/linkedList_memory_get.png) 	|
 |      Modification         |  ![plot](Projet/img/arraylist_modify_memory.png) 	|  ![plot](Projet/img/vector_modify_memory.png)	|   ![plot](Projet/img/linkedlist_modify_memory.png)	|
 |      Suppression          |  ![plot](Projet/img/arraylist_remove_memory.png) 	|  ![plot](Projet/img/vector_remove_memory.png) 	|   ![plot](Projet/img/linkedlist_remove_memory.png)	|
 
