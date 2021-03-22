@@ -68,10 +68,13 @@ La démarche systématique consiste à lancer le fichier run.sh qui vas executer
 
 ### Temps d'exécution
 
-![Capture](https://cdn.discordapp.com/attachments/784035216964059136/823135679135350784/Graph_Time.png)
-![Capture](https://cdn.discordapp.com/attachments/784035216964059136/823135696734650408/Graph_Time_VA2.png)
-**Consommation CPU**
-![Capture](https://cdn.discordapp.com/attachments/784035216964059136/823135705214746654/Graph_Time_VA.png)
+
+|   Légende   |   ArrayList	|   Vector	|   LinkedList	|
+|---	      |---	        |   ---	    |   ---	        |
+|      Ajout          |  ![plot](P4a/img/arraylist_gete.png) 	    |  ![plot](P4a/img/vector_gete.png) 	|   ![plot](P4a/img/linkedlist_gete.png) 	|
+|      Modification         |  ![plot](P4a/img/arraylist_modify.png) 	|  ![plot](P4a/img/vector_modify.png)	|   ![plot](P4a/img/linkedlist_modify.png)	|
+|      Suppression          |  ![plot](P4a/img/arraylist_remove.png) 	|  ![plot](P4a/img/vector_remove.png)
+
 
 ### Consommation mémoire
 
