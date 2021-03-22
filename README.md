@@ -154,9 +154,9 @@ La démarche systématique consiste à lancer le fichier runH.sh qui vas execute
 
 ### Analyse des résultats expérimentaux
 **Consommation Mémoire**
-    ici
+ici
 **Consommation CPU**
-    ici
+ici
 ### Discussion des résultats expérimentaux
 
 Grâce au nouveau graphique nous avons pu constater que les opérations que nous effectuons sur les deux structures sont plus rapide sur la structure Vector et consomme moins d'espace mémoire que la structure ArrayList.
