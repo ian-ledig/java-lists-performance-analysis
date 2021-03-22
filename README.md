@@ -67,11 +67,12 @@ La démarche systématique consiste à lancer le fichier run.sh qui vas executer
 ## Résultats préalables
 
 ### Temps d'exécution
-
+VA = graphique pour comparaison Vecteur ArrayList
 |   Graph   |
 |---	    |
 |![plot](Projet/imgAnalyse/Graph_Time.png)|
 |![plot](Projet/imgAnalyse/Graph_Time_VA2.png)|
+**Moyenne consommation CPU**
 |![plot](Projet/imgAnalyse/Graph_Time_VA.png)|
 
 |   Légende   |   ArrayList	|   Vector	|   LinkedList	|
@@ -86,13 +87,14 @@ La démarche systématique consiste à lancer le fichier run.sh qui vas executer
 |---	    |
 |![plot](Projet/imgAnalyse/Graph_Memoire.png)|
 |![plot](Projet/imgAnalyse/Graph_Memoire_VA2.png)|
+**Moyenne consommation espace mémoire**
 |![plot](Projet/imgAnalyse/Graph_Memoire_VA.png)|
 
 |   Légende   |   ArrayList	|   Vector	|   LinkedList	|
 |---	      |---	        |   ---	    |   ---	        |
-|      Ajout          |  ![plot](Projet/img/arraylist_memory_get.png) 	    |  ![plot](Projet/img/vector_memory_get.png) 	|   ![plot](Projet/img/linkedList_memory_get.png) 	|
-|      Modification         |  ![plot](Projet/img/arraylist_modify_memory.png) 	|  ![plot](Projet/img/vector_modify_memory.png)	|   ![plot](Projet/img/linkedlist_modify_memory.png)	|
-|      Suppression          |  ![plot](Projet/img/arraylist_remove_memory.png) 	|  ![plot](Projet/img/vector_remove_memory.png) 	|   ![plot](Projet/img/linkedlist_remove_memory.png)	|
+|  Ajout  |  ![plot](Projet/img/arraylist_memory_get.png)|![plot](Projet/img/vector_memory_get.png)| ![plot](Projet/img/linkedList_memory_get.png) |
+|  Modification|![plot](Projet/img/arraylist_modify_memory.png)| ![plot](Projet/img/vector_modify_memory.png)|![plot](Projet/img/linkedlist_modify_memory.png)	|
+|  Suppression |![plot](Projet/img/arraylist_remove_memory.png) |![plot](Projet/img/vector_remove_memory.png)|![plot](Projet/img/linkedlist_remove_memory.png)	|
 
 
 ### Analyse des résultats préalables
@@ -140,15 +142,15 @@ La démarche systématique consiste à lancer le fichier runH.sh qui vas execute
 |   Légende   |   ArrayList	|   Vector	| 
 |---	      |---	        |   ---	    |
 |      Ajout         |  ![plot](Projet/imgH/arraylist_get_hypothese_memory.png) 	    |  ![plot](Projet/imgH/vector_get_hypothese_memory.png) 	|
-|      Modification         |  ![plot](Projet/imgH/arraylist_modify_hypothese_memory.png) 	|  ![plot](Projet/imgH/vector_modify_hypothese_memory.png)	|
-|      Suppression          |  ![plot](Projet/imgH/arraylist_remove_hypothese_memory.png) 	|  ![plot](Projet/imgH/vector_remove_hypothese_memory.png) 	|
+|      Modification         |  ![plot](Projet/imgH/arraylist_modify_hypothese_memory.png) 	|  ![plot](Projet/imgH/vector_modify_hypothese_memory.png)|
+|      Suppression          |  ![plot](Projet/imgH/arraylist_remove_hypothese_memory.png) 	|  ![plot](Projet/imgH/vector_remove_hypothese_memory.png) |
 
 ### Consommation mémoire
 |   Légende   |   ArrayList	|   Vector	| 
 |---	      |---	        |   ---	    |
 |      Ajout         |  ![plot](Projet/imgH/arraylist_get_hypothese_memory.png) 	    |  ![plot](Projet/imgH/vector_get_hypothese_memory.png) 	|
-|      Modification         |  ![plot](Projet/imgH/arraylist_modify_hypothese_memory.png) 	|  ![plot](Projet/imgH/vector_modify_hypothese_memory.png)	|
-|      Suppression          |  ![plot](Projet/imgH/arraylist_remove_hypothese_memory.png) 	|  ![plot](Projet/imgH/vector_remove_hypothese_memory.png) 	|
+|      Modification         |  ![plot](Projet/imgH/arraylist_modify_hypothese_memory.png) 	|  ![plot](Projet/imgH/vector_modify_hypothese_memory.png)|
+|      Suppression          |  ![plot](Projet/imgH/arraylist_remove_hypothese_memory.png) 	|  ![plot](Projet/imgH/vector_remove_hypothese_memory.png) |
 
 ### Analyse des résultats expérimentaux
 **Consommation Mémoire**
