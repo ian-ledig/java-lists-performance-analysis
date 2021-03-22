@@ -49,6 +49,7 @@ Extrait pertinent de /proc/cpuinfo
 
 ```
 Ligne de commande à executer: ./run.sh
+Les parramètres sont le types de structures ArrayList,LindeList et vector suivie de l'action a effectuer puis la taille de la structure. 
 ```
 
 La démarche systématique consiste à lancer le fichier run.sh qui vas executer le code. Une fois le code executer. Cela aura générer un fichier Perf.csv et le lancer avec le logiciel R qui lui grace au fichier Rscript.R vas generer 4 graphique: 
@@ -133,6 +134,7 @@ Pour le savoir nous allons utiliser des structures ArrayList et Vector qui seron
 
 ```
 Ligne de commande à executer: ./runH.sh
+Les parramètres sont le types de structures ArrayList,LindeList et vector suivie de l'action a effectuer puis la taille de la structure. 
 ```
 La démarche systématique consiste à lancer le fichier runH.sh qui vas executer le code. Une fois le code executer. Cela aura générer un fichier PerfH.csv et le lancer avec le logiciel R qui lui grace au fichier RHscript.R vas generer differents graphique pour pouvoir comparer les structure Vector et ArrayList.
 
