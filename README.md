@@ -154,10 +154,9 @@ La démarche systématique consiste à lancer le fichier runH.sh qui vas execute
 
 ### Analyse des résultats expérimentaux
 **Consommation Mémoire**
-
 ici ...
-**Consommation CPU**
 
+**Consommation CPU**
 ici ...
 ### Discussion des résultats expérimentaux
 
