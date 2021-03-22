@@ -75,9 +75,11 @@ La démarche systématique consiste à lancer le fichier run.sh qui vas executer
 |      Suppression    |  ![plot](Projet/img/arraylist_remove.png) |  ![plot](Projet/img/vector_remove.png)|  ![plot](Projet/img/vector_remove.png)  
 
 
-![plot](Projet/imgAnalyse/Graph_Time.png)
-![plot](Projet/imgAnalyse/Graph_Time_VA.png)
-![plot](Projet/imgAnalyse/Graph_Time_VA2.png)
+|   Graph   |
+|---	    |
+|![plot](Projet/imgAnalyse/Graph_Time.png)|
+|![plot](Projet/imgAnalyse/Graph_Time_VA2.png)|
+|![plot](Projet/imgAnalyse/Graph_Time_VA.png)|
 ### Consommation mémoire
 
 ![Capture](https://cdn.discordapp.com/attachments/784035216964059136/823135684671963166/Graph_Memoire.png)
