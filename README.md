@@ -135,6 +135,7 @@ Ligne de commande à executer: ./runH.sh
 La démarche systématique consiste à lancer le fichier runH.sh qui vas executer le code. Une fois le code executer. Cela aura générer un fichier PerfH.csv et le lancer avec le logiciel R qui lui grace au fichier RHscript.R vas generer differents graphique pour pouvoir comparer les structure Vector et ArrayList.
 
 ### Résultats expérimentaux
+### Temps d'exécution
 
 |   Légende   |   ArrayList	|   Vector	| 
 |---	      |---	        |   ---	    |
@@ -142,7 +143,7 @@ La démarche systématique consiste à lancer le fichier runH.sh qui vas execute
 |      Modification         |  ![plot](Projet/imgH/arraylist_modify_hypothese_memory.png) 	|  ![plot](Projet/imgH/vector_modify_hypothese_memory.png)	|
 |      Suppression          |  ![plot](Projet/imgH/arraylist_remove_hypothese_memory.png) 	|  ![plot](Projet/imgH/vector_remove_hypothese_memory.png) 	|
 
-
+### Consommation mémoire
 |   Légende   |   ArrayList	|   Vector	| 
 |---	      |---	        |   ---	    |
 |      Ajout         |  ![plot](Projet/imgH/arraylist_get_hypothese_memory.png) 	    |  ![plot](Projet/imgH/vector_get_hypothese_memory.png) 	|
