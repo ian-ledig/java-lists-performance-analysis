@@ -59,7 +59,7 @@ La démarche systématique consiste à lancer le fichier run.sh qui vas executer
 
 - Graph_Time_VA.png  qui afiche la consommation CPU des Structures ArrayList, LinkedList et Vector, mais qui est générer pour comparer les structure ArrayList et Vector
 
-- -Graph_Time_VA2.png  qui afiche la consommation CPU des Structures ArrayList, LinkedList et Vector
+- Graph_Time_VA2.png  qui afiche la consommation CPU des Structures ArrayList, LinkedList et Vector
 
 
 
@@ -70,9 +70,9 @@ La démarche systématique consiste à lancer le fichier run.sh qui vas executer
 
 |   Légende   |   ArrayList	|   Vector	|   LinkedList	|
 |---	      |---	        |   ---	    |   ---	        |
-|      Ajout          |  ![plot](P4a/img/arraylist_get.png)   |  ![plot](P4a/img/vector_get.png) 
-|      Modification   |  ![plot](P4a/img/arraylist_modify.png) |  ![plot](P4a/img/vector_modify.png)
-|      Suppression    |  ![plot](P4a/img/arraylist_remove.png) |  ![plot](P4a/img/vector_remove.png)
+|      Ajout          |  ![plot](P4a/img/arraylist_get.png)   |  ![plot](P4a/img/vector_get.png) |  ![plot](P4a/img/vector_get.png) 
+|      Modification   |  ![plot](P4a/img/arraylist_modify.png) |  ![plot](P4a/img/vector_modify.png)|  ![plot](P4a/img/vector_get.png) 
+|      Suppression    |  ![plot](P4a/img/arraylist_remove.png) |  ![plot](P4a/img/vector_remove.png)|  ![plot](P4a/img/vector_get.png) 
 
 ### Consommation mémoire
 
