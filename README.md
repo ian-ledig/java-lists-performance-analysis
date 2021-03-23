@@ -43,6 +43,22 @@ Description de l'organisation des classes et interfaces, ou diagramme de classes
 Description de la plateforme de test
 ```
 Extrait pertinent de /proc/cpuinfo
+
+processor       : 2
+vendor_id       : AuthenticAMD
+cpu family      : 6
+model           : 2
+model name      : QEMU Virtual CPU version 0.13
+microcode       : 0x1000065
+cpu MHz         : 2294.246
+cache size      : 512 KB
+flags           : fpu de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx lm nopl cpuid tsc_known_freq pni cx16 popcnt hypervisor lahf_lm svm abm sse4a 3dnowprefetch vmmcall
+bogomips        : 4588.49
+TLB size        : 1024 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 40 bits physical, 48 bits virtual
+
 ```
 
 ### Description de la démarche systématique
