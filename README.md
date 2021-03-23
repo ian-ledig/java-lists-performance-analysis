@@ -172,7 +172,8 @@ La démarche systématique consiste à lancer le fichier runH.sh qui vas execute
 
 ### Analyse des résultats expérimentaux
 **Consommation Mémoire**
-ici ...
+
+On observe encore une fois ce qui est normal que plus la taille des tructures est grande plus il y aura une plus grande consommation de mémoire des deux structures. On constate surtout que en général lorsque les deux structures travail avec des petites taille entre [1e+07,2e+07] il consomme approximativement la même consommation mémoire puis une fois cette interval dépasser on observe que la structure ArrayList consomme plus que Vector. On vois bien ce phénomène lorsque la taille est au maximum on remarque une difference de 250 000. On observer donc que plus la taille de la structure est grande plus l'ArrayList consommera plus d'espace mémoire par rapport à Vector.
 
 **Consommation CPU**
 ici ...
