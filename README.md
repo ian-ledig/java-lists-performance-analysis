@@ -186,6 +186,7 @@ On observe que le Vectore utilise moins le CPU que l'ArrayList dans tous les cas
 ### Discussion des résultats expérimentaux
 
 Grâce au nouveau graphique nous avons pu constater que les opérations que nous effectuons sur les deux structures sont plus rapides sur la structure Vector et consomment moins d'espaces mémoires que la structure ArrayList.
+
 ## Conclusion et travaux futurs
 
 Nous pouvons en conclure que pour notre utilisation, nous devrons plus utiliser les Vector car ils sont plus performants et consomme moins d'espace mémoire quand nous manipulons beaucoup de donnée. Pour les travaux futurs, on pourrait essayer de savoir à partir de quelle taille de structure Vector serait-elle à privilégier, car dans ce projet nous nous sommes concenter sur la manipulation grande structure.
