@@ -66,6 +66,8 @@ address sizes   : 40 bits physical, 48 bits virtual
 ```
 Ligne de commande à executer: ./run.sh
 Les paramètres sont le types de structures à tester (ArrayList, LinkedList ou Vector) suivie de l'action a effectuer puis la taille de la structure. 
+
+On observe la consommation CPU, consommation espace mémoire des structures selon les differentes actions et selon la taille de la structure  
 ```
 
 La démarche systématique consiste à lancer le fichier run.sh qui va executer le code. Une fois le code exécuter. Cela générera un fichier Perf.csv qui sera lisible avec le logiciel R qui pourra, grâce au fichier Rscript.R, générer 4 graphiques : 
@@ -150,7 +152,9 @@ Pour le savoir nous allons utiliser les structures ArrayList et Vector qui seron
 
 ```
 Ligne de commande à executer: ./runH.sh
-Les paramètres sont le types de structures ArrayList, LindeList et vector suivie de l'action à effectuer puis la taille de la structure. 
+Les paramètres sont le types de structures ArrayList et Vector suivie de l'action à effectuer puis la taille de la structure qui ne peut être inferieur à 5 000 000. 
+Car nous voulons étudier la consommation du CPU, consommation mémoire pour les differentes actions sur les deux structure lorsque elle doivent travaillé avec des grandes taille.
+
 ```
 La démarche systématique consiste à lancer le fichier runH.sh qui va exécuter le code. Cela générera un fichier PerfH.csv qui pourra être lancé avec le logiciel R qui qui générera grâce au fichier RHscript.R, les différents graphiques pour comparer les structure Vector et ArrayList.
 
