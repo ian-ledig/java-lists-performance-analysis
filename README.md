@@ -23,7 +23,7 @@ Dans le cadre des tests de comparaison de performance entre une ArrayList, Vecto
 - modification d'éléments dans chaque list au début au milieu et à la fin,
 
 
-Ainsi, nous pouvons comparer les résultats sur chaque opération et en déduire laquelle est la plus optimale en fonction de l'utilisation souhaitée avec un bon rapport rapidité/performance CPU utilisé.
+Ainsi, nous pouvons comparer les résultats sur chaque opération et en déduire laquelle est la plus optimale en fonction de l'utilisation souhaitée avec un bon rapport rapidité/performance CPU utilisée.
 
 ## Dispositif expérimental
 
@@ -68,15 +68,15 @@ Ligne de commande à executer: ./run.sh
 Les parramètres sont le types de structures ArrayList,LindeList et vector suivie de l'action a effectuer puis la taille de la structure. 
 ```
 
-La démarche systématique consiste à lancer le fichier run.sh qui vas executer le code. Une fois le code executer. Cela aura générer un fichier Perf.csv et le lancer avec le logiciel R qui lui grace au fichier Rscript.R vas generer 4 graphique: 
+La démarche systématique consiste à lancer le fichier run.sh qui va executer le code. Une fois le code exécuter. Cela aura générer un fichier Perf.csv et le lancer avec le logiciel R qui lui grâce au fichier Rscript.R vas générer 4 graphique: 
 
-- -Graph_Time.png qui afiche la consommation CPU des Structures ArrayList, LinkedList et Vector
+- -Graph_Time.png qui affiche la consommation CPU des Structures ArrayList, LinkedList et Vector
 
-- -Graph_Mémoire.png  qui afiche la consommation Memoir des Structures ArrayList, LinkedList et Vector
+- -Graph_Mémoire.png qui affiche la consommation Memoir des Structures ArrayList, LinkedList et Vector
 
-- Graph_Time_VA.png  qui afiche la consommation CPU des Structures ArrayList, LinkedList et Vector, mais qui est générer pour comparer les structure ArrayList et Vector
+- Graph_Time_VA.png qui affiche la consommation CPU des Structures ArrayList, LinkedList et Vector, mais qui est générer pour comparer les structures ArrayList et Vector
 
-- Graph_Time_VA2.png  qui afiche la consommation CPU des Structures ArrayList, LinkedList et Vector
+- Graph_Time_VA2.png qui affiche la consommation CPU des Structures ArrayList, LinkedList et Vector
 
 
 
@@ -118,41 +118,41 @@ VA = graphique pour comparaison Vecteur ArrayList
 
 **Consommation Mémoire**
 
-On observe que plus la taille de la structure est grande plus la strucure Vector est la structure qui consomme le moin d'espace de mémoire suivis de près par la strucutre ArrayList. Pour ce qui est de la strucure LindeList c'est la structure qui consomme le plus d'espace de mémoire plus la taille est grande. On constate que pour l'ensemble des structure il y a des palliers qui apparraisse selon la taille de la structure. C'est à dire que lorsque la taille dépasse une certain quantité ou descent en dessous d'une certaine quantité la consomation vas fortement augementer ou diminuer.
+On observe que plus la taille de la structure est grande plus la structure Vector est celle qui consomme le moins d'espace de mémoire suivis de près par la strucutre ArrayList. Pour ce qui est de la structure LinkedList c'est la structure qui consomme le plus d'espace de mémoire plus la taille est grande. On constate que pour l'ensemble des structure il y a des paliers qui apparraissent selon la taille de la structure. C'est à dire que lorsque la taille dépasse une certaine quantité ou descend en dessous d'une certaine quantité la consommation vas fortement augmenter ou diminuer.
 
 **Consommation CPU**
 
-On observe que la structure LinkedList se distingue fortement des autres structures avec la partie consomation du CPU qui augemente de manière exponentiel plus la taille de la structure est grande. On constate pour la structure LinkedList que a partir d'un certain niveau le saut entre deux palier est grande d'environ 8sec. Pour les structures Vector et ArrayList on remarque pas de grande differences mais on constate encore une fois que la structure Vector est plus performentes lus la taille du tableau est grande.
+On observe que la structure LinkedList se distingue fortement des autres structures avec la partie consommation du CPU qui augmente de manière exponentiel plus la taille de la structure est grande. On constate pour la structure LinkedList que a partir d'un certain niveau le saut entre deux paliers est grande d'environ 8sec. Pour les structures Vector et ArrayList on remarque pas de grande différences mais on constate encore une fois que la structure Vector est plus performantes lus la taille du tableau est grande.
 
 **Consommation CPU et Mémoire**
 
-On peux en déduire que en général la structure la plus performantes sur des lites de grande tailles est la structure Vector suivie de près par la structure ArrayList et suivie de loin par LinkedList accause de sa trop grande consommation du CPU.
+On peut en déduire qu'en général la structure la plus performante sur des listes de grandes tailles est la structure Vector suivie de près par la structure ArrayList et suivie de loin par LinkedList à cause de sa trop grande consommation du CPU.
 Vector > ArrayList > LinkedList
 
 ### Discussion des résultats préalables
 
-Explications précises et succinctes sur ce que les limites des résultats
+Explications précises et succinctes sur les limites des résultats
 préalables et ce qu'ils ne permettent pas de vérifier.
 
-Sur nos résultats préalables on remarque que les structures ArrayListet Vector sont très similaires.
-Pour notre utilisation au dut on pourrait remplacer une ArrayList par un Vector on ne verrais pas la différence et inversement.
-Pour la structure LinkedList qui hérite aussi de List<> mais est moin performant qui est surment du au fait que cette strucuture utilise beaucoup de petits objets de mémoire ce qui signifie que toute opération indexée nécessite une opération transversale.
+Sur nos résultats préalables, on remarque que les structures ArrayList et Vector sont très similaires.
+Pour notre utilisation au DUT, on pourrait remplacer une ArrayList par un Vector. On n'y verrait pas la différence.
+La structure LinkedList, héritant aussi de List<>, est moins performante car cette strucuture utilise beaucoup de petits objets de mémoire ce qui signifie que toute opération indexées nécessitent une opération transversale.
 
 ## Etude approfondie
 
 ### Hypothèse
 
-Tous au long de notre analyse du résultats préalables nous avons constater que les ArrayList et les Vectors possèdes des performances équivalente. Il serait judicieux de savoir finalement qu'elles est la structure la plus intéressant sur des structure de plus de cinq-millions de valeurs ?
+Tout au long de notre analyse des résultats préalables nous avons constaté que les ArrayList et les Vectors possèdes des performances équivalentes. Il serait judicieux de savoir finalement qu'elle est la structure la plus intéressante sur des structures de plus de cinq-millions de valeurs.
 
-Pour le savoir nous allons utiliser des structures ArrayList et Vector qui seront composer de cinq-millions d'objets et faire différentes actions sur ces structures.
+Pour le savoir nous allons utiliser les structures ArrayList et Vector qui seront composer de cinq-millions d'objets. Nous y testerons différentes actions.
 
 ### Protocole expérimental de vérification de l'hypothèse
 
 ```
 Ligne de commande à executer: ./runH.sh
-Les parramètres sont le types de structures ArrayList,LindeList et vector suivie de l'action a effectuer puis la taille de la structure. 
+Les paramètres sont le types de structures ArrayList, LindeList et vector suivie de l'action à effectuer puis la taille de la structure. 
 ```
-La démarche systématique consiste à lancer le fichier runH.sh qui vas executer le code. Une fois le code executer. Cela aura générer un fichier PerfH.csv et le lancer avec le logiciel R qui lui grace au fichier RHscript.R vas generer differents graphique pour pouvoir comparer les structure Vector et ArrayList.
+La démarche systématique consiste à lancer le fichier runH.sh qui va exécuter le code. Cela générera un fichier PerfH.csv qui pourra être lancé avec le logiciel R qui qui générera grâce au fichier RHscript.R, les différents graphiques pour comparer les structure Vector et ArrayList.
 
 ### Résultats expérimentaux
 ### Temps d'exécution
@@ -173,13 +173,15 @@ La démarche systématique consiste à lancer le fichier runH.sh qui vas execute
 ### Analyse des résultats expérimentaux
 **Consommation Mémoire**
 
-On observe encore une fois ce qui est normal que plus la taille des tructures est grande plus il y aura une plus grande consommation de mémoire des deux structures. On constate surtout que en général lorsque les deux structures travail avec des petites taille entre [1e+07,2e+07] il consomme approximativement la même consommation mémoire puis une fois cette interval dépasser on observe que la structure ArrayList consomme plus que Vector. On vois bien ce phénomène lorsque la taille est au maximum on remarque une difference de 250 000. On observer donc que plus la taille de la structure est grande plus l'ArrayList consommera plus d'espace mémoire par rapport à Vector.
+On observe que le Vector utilise moins de mémoire que l'ArrayList dans tous les cas récupération de données, de modification et de suppression des valeurs.
 
 **Consommation CPU**
-ici ...
+
+On observe que le Vectore utilise moins le CPU que l'ArrayList dans tous les cas récupération de données, de modification et de suppression des valeurs.
+
 ### Discussion des résultats expérimentaux
 
-Grâce au nouveau graphique nous avons pu constater que les opérations que nous effectuons sur les deux structures sont plus rapide sur la structure Vector et consomme moins d'espace mémoire que la structure ArrayList.
+Grâce au nouveau graphique nous avons pu constater que les opérations que nous effectuons sur les deux structures sont plus rapides sur la structure Vector et consomment moins d'espaces mémoires que la structure ArrayList.
 ## Conclusion et travaux futurs
 
-Nous pouvons en conclure que pour notre utilisation nous devrons plus utiliser les vector car ils sont plus performents et consomme moins d'espace mémoire quand nous manipulons beaucoup de donnée. Pour les travaux futurs on pourrais essayer de savoir à partir de quelle taille de structure Vector serais t-elle a prévilégier car dans ce projet nous nous somme concenter sur la manipulation grande structure.
+Nous pouvons en conclure que pour notre utilisation, nous devrons plus utiliser les Vector car ils sont plus performants et consomme moins d'espace mémoire quand nous manipulons beaucoup de donnée. Pour les travaux futurs, on pourrait essayer de savoir à partir de quelle taille de structure Vector serait-elle à privilégier, car dans ce projet nous nous sommes concenter sur la manipulation grande structure.
