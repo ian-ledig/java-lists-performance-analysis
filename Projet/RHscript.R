@@ -37,7 +37,7 @@ ArrayList
  ggsave("imgH/arraylist_get_hypothese.png")
 
  ggplot(perf[perf$Action=="getValue_first" & perf$Structure=="arraylist" | perf$Action=="getValue_middle" & perf$Structure=="arraylist" | perf$Action=="getValue_last"
- 		& perf$Structure=="arraylist",], aes(x=Taille, y=Mem, color=Action)) + geom_point() + geom_smooth() + facet_grid(.~Action) + ggtitle("CPU d'accès à une ArrayList")
+ 		& perf$Structure=="arraylist",], aes(x=Taille, y=Mem, color=Action)) + geom_point() + geom_smooth() + facet_grid(.~Action) + ggtitle("Mémoire utilisé d'accès à une ArrayList")
  ggsave("imgH/arraylist_get_hypothese_memory.png")
 
  ggplot(perf[perf$Action=="changeValue_first" & perf$Structure=="arraylist" | perf$Action=="changeValue_middle" & perf$Structure=="arraylist" | perf$Action=="changeValue_last"
