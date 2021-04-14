@@ -17,36 +17,36 @@
   - [ ] Les principes de la programmation objet ne sont pas exploités. 
 ## Rédaction et analyses
 - Description du problème
-  - [ ] La section est pertinente, succincte et précise.
-  - [x] La section est pertinente.
+  - [X] La section est pertinente, succincte et précise.
+  - [ ] La section est pertinente.
   - [ ] La section n'est pas pertinente.
 - Application
-  - [ ] La section est pertinente, succincte et précise.
+  - [X] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
-  - [x] La section n'est pas pertinente.
+  - [ ] La section n'est pas pertinente.
 - Environnement de test
   - [x] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
   - [ ] La section n'est pas pertinente.
 - Description de la démarche systématique
-  - [x] La section est pertinente, succincte et précise.
-  - [ ] La section est pertinente.
+  - [ ] La section est pertinente, succincte et précise.
+  - [X] La section est pertinente.
   - [ ] La section n'est pas pertinente.			
 - Analyse des résultats préalables
-  - [ ] La section est pertinente, succincte et précise.
-  - [x] La section est pertinente.
-  - [ ] La section n'est pas pertinente.
-- Discussion des résultats préalables
-  - [x] La section est pertinente, succincte et précise.
+  - [X] La section est pertinente, succincte et précise.
   - [ ] La section est pertinente.
   - [ ] La section n'est pas pertinente.
+- Discussion des résultats préalables
+  - [ ] La section est pertinente, succincte et précise.
+  - [ ] La section est pertinente.
+  - [X] La section n'est pas pertinente.
 - Hypothèse
   - [ ] La section est pertinente, succincte et précise.
   - [x] La section est pertinente.
   - [ ] La section n'est pas pertinente.
 - Protocole expérimental de vérification de l'hypothèse
-  - [x] La section est pertinente, succincte et précise.
-  - [ ] La section est pertinente.
+  - [ ] La section est pertinente, succincte et précise.
+  - [X] La section est pertinente.
   - [ ] La section n'est pas pertinente.
 - Analyse des résultats expérimentaux
   - [ ] La section est pertinente, succincte et précise.
@@ -63,17 +63,17 @@
 
 ## Résultats 	
 - Nombre
-  - [ ] Les tests sont suffisament nombreux pour observer des épiphénomènes
-  - [x] Les tests sont suffisament nombreux pour observer des phénomènes
+  - [X] Les tests sont suffisament nombreux pour observer des épiphénomènes
+  - [ ] Les tests sont suffisament nombreux pour observer des phénomènes
   - [ ] Les tests ne sont pas suffisament nombreux pour observer des phénomènes
 - Echantillon
-  - [x] L'échantillon choisi a un bon équilbre entre temps d'exécution et observations
-  - [ ] L'échantillon choisi néglige les temps d'exécution
+  - [ ] L'échantillon choisi a un bon équilbre entre temps d'exécution et observations
+  - [X] L'échantillon choisi néglige les temps d'exécution
   - [ ] L'échantillon choisi néglige les observations
 - Artefacts		
-  - [ ] Les observations excluent tout artefacts		
+  - [X] Les observations excluent tout artefacts		
   - [ ] Certains artefacts, comme des pas d'horloge, sont visibles
-  - [x]	Seuls des artefacts sont observables
+  - [ ]	Seuls des artefacts sont observables
 - Décoration
   - [x] Les plots contiennent légende et titre
   - [ ]	Les plots contiennent légende ou titre
@@ -108,4 +108,4 @@
 - Total d'item « Satisfaisant » (0,5 point) :
 - Total d'item « Insatisfaisant » (0 point) :
 
-- Note sur 24 :
+- Note sur 24 : 17 ()
